@@ -1,0 +1,18 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/action_bar.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/action_bar.js" />
+	</scripts>
+	<Panel class="AbilityOverlayRoot">
+		<Panel class="GameBoard">
+			<Label id="score1" text="0" />
+			<Label id="score2" text="0" />
+			<Panel id="ball" />
+			<Panel id="left_paddle"/>
+			<Panel id="right_paddle" />
+		</Panel>
+	</Panel>
+</root>
+

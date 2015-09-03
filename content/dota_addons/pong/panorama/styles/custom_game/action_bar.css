@@ -1,0 +1,62 @@
+.AbilityOverlayRoot
+{
+	width: 100%;
+	height: 96%;
+	vertical-align: bottom;
+	background-color: black;
+	opacity: 1;
+}
+
+.GameBoard
+{
+	width: 1200px;
+	height: 800px;
+	border: 2px solid black;
+	background-color: #272823;
+	horizontal-align: middle;
+	vertical-align: middle;
+}
+
+#score2
+{
+	margin-left: 450px;
+	margin-top: 20px;
+    font-size: 72px;
+    font-weight: bolder;
+    color: white;
+}
+
+#score1
+{
+	margin-left: 700px;
+	margin-top: 20px;
+    font-size: 72px;
+    font-weight: bolder;
+    color: white;
+}
+
+#left_paddle
+{
+	width: 16px;
+	height: 148px;
+	margin-left: 30px;
+	margin-top: 180px;
+	background-color: white;
+}
+
+#right_paddle
+{
+	width: 16px;
+	height: 148px;
+	horizontal-align: right;
+	margin-right: 30px;
+	margin-top: 450px;
+	background-color: white;
+}
+
+#ball
+{
+	width: 24px;
+	height: 24px;
+	background-color: white;
+}
